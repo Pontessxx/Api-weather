@@ -9,7 +9,7 @@ function dadosTela(dados){
     const title = document.getElementById('cidade_title')
     title.innerHTML = dados.name
     title.classList.add('yello')
-    document.querySelector('.temp').innerHTML = dados.
+    document.querySelector('.temp').innerHTML = dados.main.temp + "°C"
 }
 function pegaInput() {
    const cidade = document.getElementById('input').value
