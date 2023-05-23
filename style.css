@@ -27,8 +27,21 @@ body{
     outline: none;
     padding: 10px;
     border-radius: 25px;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #7c7c7c2b;
     color: #fff;
-    width: calc(100% - 100px);
+    width: calc(100% - 70px);
+}
+.botao-busca{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+}
+
+.img-busca{
+    width: 20px;
 }
