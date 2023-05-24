@@ -1,4 +1,5 @@
 # Api-weather
+<video autoplay loop muted src="./image/Previsão-de-tempo-video.mp4" alt="video"></video>
 - O arquivo `index.html` contém a estrutura HTML do site e inclui os arquivos CSS e JavaScript necessários.
 - O diretório `css/` contém o arquivo `style.css`, que define a aparência e o layout do site.
 - O diretório `js/` contém o arquivo `script.js`, que contém o código JavaScript responsável por manipular o DOM e interagir com a API externa.
