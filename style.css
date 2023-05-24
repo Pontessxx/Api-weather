@@ -11,11 +11,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to top, #363636,#dad8d8);
 }
-#image img{
+/* #image img{
     width: 32rem;
     margin: 3rem;
-}
+} */
 .caixa-maior{
     background: #000;
     opacity: 0.8;
@@ -49,6 +50,14 @@ body{
 }
 .caixa-media{
     margin-top: 30px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p{
+    padding: 0 100px;
 }
 .cidade{
     color: #fff;

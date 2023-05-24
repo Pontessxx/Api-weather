@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--==== ICON ====-->
-    <link rel="icon" type="image/png" href="">
+    <link rel="icon" type="image/png" href="https://openweathermap.org/img/wn/04n.png">
     <link rel="stylesheet" href="style.css">
     <title>Previsão de tempo</title>
 </head>
 <body>
-    <div id="image">
-        <img src="./image/background-image-wether.svg" alt="">
-    </div>
+    
     
     <div class="caixa-maior">
         <input class="input-cidade" placeholder="digite o nome da cidade" id="input">
         <button class="botao-busca" onclick="pegaInput()"><img class="img-busca" src="https://www.svgrepo.com/show/488200/find.svg" alt="busca"></button>
         <div class="caixa-media">
            <h2 class="cidade">Tempo em <span id="cidade_title"></span></h2>
+           <div class="title">
             <p class="temp"> °C</p> 
+            <p class="temp" id="sensacao"> °C</p> 
+           </div>
+            
             <div class="caixa-menor">
                 <img class="img-previsao" src="https://openweathermap.org/img/wn/04n.png" alt="icone-info-tempo" > 
                 <p class="text-previsao">...</p>
             </div>
         </div>
         <p class="umidade">Umidade: <span id="umidade"></span></p>
+        <p class="umidade">Velocidade do vento: <span id="vento"></span></p>
     </div>
     <script src="script.js"></script>
 </body>

@@ -10,9 +10,11 @@ function dadosTela(dados){
     title.innerHTML = dados.name // pega o nome
     title.classList.add('verde-titulo') // adiciona o verde no titulo
     document.querySelector('.temp').innerHTML = Math.floor(dados.main.temp) + "°C" // pega a temperatura 
+    document.querySelector('#sensacao').innerHTML = Math.floor(dados.main.feels_like) + "°C" // pega a temperatura-sensacao 
     document.querySelector('.text-previsao').innerHTML = dados.weather[0].description // descrição
     document.querySelector('#umidade').innerHTML = dados.main.humidity + "%" // pega a umidade 
-    document.querySelector('.img-previsao').src =`https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
+    document.querySelector('#vento').innerHTML = dados.wind.speed  // pega a velocidade 
+    document.querySelector('.img-previsao').src = `https://openweathermap.org/img/wn/${dados.weather[0].icon}.png`
 
 }
 function pegaInput() {
